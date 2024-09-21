@@ -71,12 +71,14 @@ export default function Login() {
             </span>
           </Link>
           <div>
-            <button
-              type="submit"
-              className=" btn btn-accent btn-block btn-sm mt-2 "
-            >
-              Login
-            </button>
+            <Link to="/home">
+              <button
+                type="submit"
+                className=" btn btn-accent btn-block btn-sm mt-2 "
+              >
+                Login
+              </button>
+            </Link>
           </div>
         </form>
       </div>
